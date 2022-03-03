@@ -7,5 +7,6 @@ import java.util.Optional;
 
 public interface IImagenRepository extends MongoRepository<ImagenMongo, Integer> {
     Optional<ImagenMongo> findById(String id);
+
     void deleteById(String id);
 }

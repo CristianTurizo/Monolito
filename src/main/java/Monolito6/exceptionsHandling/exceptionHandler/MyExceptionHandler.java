@@ -16,7 +16,7 @@ import org.springframework.web.method.annotation.MethodArgumentTypeMismatchExcep
 import javax.servlet.http.HttpServletRequest;
 import java.util.List;
 
-@ControllerAdvice
+@RestControllerAdvice
 public class MyExceptionHandler {
 
     // Manejo de exepcion para cuando no se encuentra un registro
